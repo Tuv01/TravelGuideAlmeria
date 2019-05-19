@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item_pager"
+    android:layout_width="match_parent"
+    android:layout_height="108dp"
+    android:background="@color/colorAccent">
+
+    <!-- This is the item displayed on the pager activity listView-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_image_view"
+        android:layout_width="@dimen/thumbnail_height"
+        android:layout_height="@dimen/thumbnail_height"
+        android:layout_margin="4dp"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/hotel_1"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/light_blue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/list_image_view"
+        android:layout_toEndOf="@+id/list_image_view"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_title_name"
+            style="@style/text_list_view"
+            android:textSize="20sp"
+            android:gravity="bottom"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/list_item_name"
+            style="@style/text_list_view"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            tools:text="@tools:sample/last_names"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_icon_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/ic_next"
+        android:layout_margin="@dimen/margin_8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

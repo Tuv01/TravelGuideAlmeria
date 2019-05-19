@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_events"
+        android:layout_marginBottom="@dimen/margin_50dp"
+        android:contentDescription="@string/events_img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtevent1"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginStart="@dimen/margin_50dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:layout_gravity="start"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtevent2"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginStart="@dimen/margin_50dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:layout_gravity="start"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtevent3"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginStart="@dimen/margin_50dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:layout_gravity="start"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtevent4"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginStart="@dimen/margin_50dp"
+        android:layout_marginEnd="@dimen/margin_16dp"
+        android:layout_gravity="start"
+        />
+
+</LinearLayout>
+
+</ScrollView>

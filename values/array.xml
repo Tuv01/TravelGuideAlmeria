@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- array main category (0 = information , 1 = hotel, 2 = food , bar = 3, beach = 4 , places = 5) -->
+    <string-array name="categories">
+        <item>Information</item>
+        <item>Hotels</item>
+        <item>Restaurants</item>
+        <item>Bars</item>
+        <item>Beaches</item>
+        <item>Do &amp; See</item>
+    </string-array>
+
+    <!-- array info =>  info_desc = description | info_desc_1 = itemName | info_web_1 = web -->
+    <string-array name="info_desc">
+        <item>ALMERIA</item>
+        <item>AIRPORT</item>
+        <item>PORT TOWN</item>
+        <item>THE RAILWAY STATION</item>
+        <item>GUIDED TOURS</item>
+    </string-array>
+    <string-array name="info_desc_1">
+        <item>Almeria is a capital of the province of the same name, a large port town and a famous tourist center.
+            <br/>The rich heritage of the city is reflected in multiple historical monuments.
+            <br/>Here you will see amazing buildings, visit entertaining museums, and attend interesting exhibitions.
+            <br/>Alcazaba castle is known as the most famous sight of the city. It was built in the times, when the city was ruled by the Moors. The castle was built by order of Emir Abd al-Rahman in the 13th century.</item>
+        <item>Almería Airport (IATA: LEI, ICAO: LEAM) is located 9 km (5.6 mi) east of Almería city centre, in the province of Almería in south-eastern Spain..
+            <br/>It is a modern airport, with arrivals and departures taking place on the main ground floor. It also has a terrace overlooking the runway.
+            <br/>There is signed access to the airport from the A7 "Motorway of the Mediterranean", through the AL-17 dual carriageway.
+            <br/>The A7 links to many cities along the coast of Spain. Local bus line 22 links the airport with the city centre. Taxis and car rental companies are available, too. </item>
+        <item>The Port of Almeria is a busy ferry-port in Almeria, Spain..
+            <br/>The port is located in the center of the city, and serves primarily as a ferry terminal.
+            <br/>Crossings to destinations in North Africa take approximately 6 hours (normal ferry to Nador or Melilla). This is a much longer (and more expensive) crossing than the short crossings from Algeciras to Tangier, but it is more convenient for people traveling to the Rif area or Algeria.
+            <br/>Almeria offers also a marina and a normal commercial port: it can receive cargo ships and cruise ships. The Royal Navy uses the port.</item>
+        <item>The birth of the railroad in Almería is linked essentially to the extraction of iron ore from the mountains of the interior.
+            <br/>an inexpensive transportation is needed to output the ore Alquife (Granada) and the Sierra de los Filabres (Almería) to the Port of Almería.
+            <br/>Almería- Guadix The line will open in 1895, and the full line up Linares will be inaugurated on March 14, 1899, allowing the connection of Almería with the rest of the nation.
+            <br/>The old central station building is a beautiful example of Iron Architecture, characteristic of industrial and functional buildings of the second half of the nineteenth century.
+            <br/>The iron will prevail over traditional materials (stone and brick) for consistency to support heavy loads and cover large areas.</item>
+        <item>Strolling through the streets of Almeria is walk through its history.
+            <br/>It was the Roman Portus and the Caliphate of Cordoba Magnus.
+            <br/>After the Christian era, the bourgeois revival or the typical constructions of the postwar hand municipal architect Guillermo Langle …
+            <br/>Almería presented as a city full of relics intermingled in its urban fabric.
+            <br/>https://www.turismodealmeria.org/en/travel-preparations/guided-tours/.</item>
+    </string-array>
+    <!--if you click on the image (e.g :Airport) then the url address of the airport-web is initialized in the browser -->
+    <string-array name="info_web_1">
+        <item>https://www.turismodealmeria.org/en/</item>
+        <item>http://www.aena.es/en/almeria-airport/index.html</item>
+        <item>http://www.apalmeria.com</item>
+        <item>http://www.adif.es/en_US/infraestructuras/estaciones/56312/informacion_000069.shtml</item>
+        <item>https://www.turismodealmeria.org/en/travel-preparations/guided-tours/</item>
+    </string-array>
+
+
+    <!-- array cat1 => hotel =>  title_name_1 = titleName | address_1 = address | tel_1 = tel | web_1 = web | desc_1 = desc | item_name_1 = itemName -->
+    <string-array name="title_name_1">
+        <item>AC Hotel Almería</item>
+        <item>Catedral Almería Hotel </item>
+        <item>Elba Almeria Business &amp; Convention Hotel  </item>
+        <item>Hotel Sercotel Gran Fama </item>
+        <item>NH Ciudad de Almería </item>
+        <item>Tryp Indalo</item>
+        <item>Nuevo Torreluz Hotel</item>
+    </string-array>
+    <string-array name="address_1">
+        <item>Plaza de las Flores, 5 \n04001 Almería, Spain</item>
+        <item>Plaza de La Catedral, 8 \n04002 Almería, Spain </item>
+        <item>Avenida del Mediterraneo s/n \n04009 Almería, Spain </item>
+        <item>Avda. del Mediterráneo s/n \n04009 Almería, Spain </item>
+        <item>Jardín de Medina, s/n, \n04006 Almería, Spain  </item>
+        <item>Av. del Mediterráneo, 310, \n04009 Almería, Spain </item>
+        <item>Plaza Flores, 10  \n04001 Almería, Spain  </item>
+    </string-array>
+    <string-array name="tel_1">
+        <item>0034950234999</item>
+        <item>0034950278178</item>
+        <item>0034950145390</item>
+        <item>0034950145039</item>
+        <item>0034950182500</item>
+        <item>0034912764747</item>
+        <item>0034950234399</item>
+    </string-array>
+    <string-array name="web_1">
+        <item>https://achotels.marriott.com/hotels/ac-hotel-almeria</item>
+        <item>http://www.hotelcatedral.net/EN/hotel.html</item>
+        <item>https://www.hoteleselba.com/es/hotel-elba-almeria</item>
+        <item>https://www.hotelgranfama.com</item>
+        <item>https://www.nh-hotels.com/hotel/nh-ciudad-de-almeria</item>
+        <item>https://www.melia.com/de/hotels/spanien/almeria/tryp-indalo-almeria-hotel/index.htm</item>
+        <item>https://nuevo.torreluz.com/en</item>
+    </string-array>
+    <string-array name="desc_1">
+        <item>AC Hotel Almeria, a Marriott Lifestyle Hotel is a four-star hotel located in the cultural and commercial center of Almería, 6 minutes’ walk from the Alcazaba fortifications. It has a seasonal rooftop pool and offers spacious, air-conditioned rooms.
+            <br/>Almería Cathedral is just 400 m from the AC Hotel Almeria. The Port is about 15 minutes’ walk away.
+            <br/>Guests can use the well-equipped on-site gym. A free WiFi hotspot can be found in the elegant lobby.
+            <br/>The modern, stylish rooms in AC Hotel Almeria offer reading lamps and a choice of pillows. All have wooden floors and a mini-bar.
+            <br/>El Asador restaurant offers a selection of tapas and full menus, including meats cooked in a traditional wood-burning oven. There is a large wine list for guests to choose from.
+            <br/>Just 3 minutes’ walk from the hotel are several tapas bars.</item>
+        <item>Catedral Almería Hotel is a four-star hotel located in the city centre of Almeria, where you will be able to enjoy a luxurious stay.
+            <br/>This hotel is also the first one in Almeria to receive the Q Award for its touristic quality.
+            <br/>This charming hotel is placed in a building from 1850, a beautiful sample of the manierist architecture, typical from the Almeria’s bourgeoisie from the end of 19th century.
+            <br/>The Neo-Mudéjar coffered ceiling and the cistern from the 11th century are some of the architectonical attractions of this unique building.
+            <br/>Catedral Almeria Hotel has 20 charming rooms and different halls where you will be able to organize all kind of events and celebrations.
+            <br/>It also has a restaurant, La Catedral, which will offer you a great range of imaginative gastronomy. In the terrace roof of the hotel, with swimming pool and Jacuzzi, the guests will be able to enjoy incomparable views to the Cathedral, Alcazaba and the historical city centre.</item>
+        <item>Elba Almería is a modern hotel located right across the Mediterranean Shopping Center in Almería.
+            <br/>It offers good value rooms with air conditioning, free WiFi and satellite TV..
+            <br/>The hotel’s Entresabores bright restaurant serves traditional Mediterranean food with some characteristic Almerian dishes,The hotel also has a varied wine selection.
+            <br/>Elba Almería Business &amp;Convention Hotel has a private car park, and the reception is open 24 hours a day, allowing you more flexibility during your stay.
+            <br/>The property is a 10 minutes\' drive to Almería’s old town, where you can find Almería Cathedral. Zapillo Beach and Almería Airport are both 10 minutes’ drive away.</item>
+        <item>The Sercotel Gran Fama is a fantastic 4 star hotel in Almeria, located in one of the main streets of the city, next to the Mediterranean shopping centre.
+            <br/>Its good communications provide quick access to the main roads of Almeria, the city centre and the airport.
+            <br/>The 88 rooms are fully equipped and are ideal for both business trips and leisure holidays to the city.</item>
+        <item>The NH Ciudad de Almería hotel has a faultless location right in the heart of the city. From here, you’re just a short walk away from sights like the Gothic-style cathedral and 10th-century Alcazaba fortress, not to mention shops, bars and the beach.
+            <br/>The hotel has 138 contemporary-style rooms located over 6 floors. Guests can choose between Standard and Superior – the latter come with a king-sized bed plus special extras like a coffee machine and bathrobe.
+            <br/>We’ve got a wide choice of function rooms spread over 2 floors. To set you up for business, or indeed sightseeing, there’s a big buffet breakfast, and later, the restaurant serves delicious Mediterranean dishes. There\'s also a gym that open 24/7.</item>
+        <item>Tryp Indalo hotel is a fantastic 4 star hotel in Almeria, located A few minutes from the city centre, Cabo de Gata and the Tabernas desert.
+            <br/>Spacious, bright, comfortable, outward facing rooms.
+            <br/>Delicious breakfast buffet with show cooking and local specialties.
+            <br/>Free high speed WiFi internet throughout the hotel.
+            <br/>Private parking for the exclusive use of our guests (with charge).</item>
+        <item>Nuevo Torreluz is located in Plaza Flores, just 5 minutes’ walk from Almería Cathedral and the Alcazaba. It offers modern rooms with free WiFi, satellite TV and a private bathroom.
+            <br/>There is also a bar with a terrace, the Taberna Nuevo Torreluz, where you can enjoy breakfast and tapas.
+            <br/>A wellness center is available on site for an additional cost. Some room types include free spa access. A fitness center including treadmills, eliptical cross trainers, bicycle, multigyms and cable stations is also available.
+            <br/>Located in the heart of Almería\'s old quarter, near the town square, the Nuevo Torreluz is located between the town hall, the cathedral and Paseo de Almería. There are several shops, bars and restaurants nearby.
+            <br/>The port is a 12-minute walk away, and you can walk to the beach in around 20 minutes.</item>
+    </string-array>
+    <string-array name="item_name_1">
+        <item>from 45€/night 2 person</item>
+        <item>from 75€/night 2 person</item>
+        <item>from 60€/night 2 person</item>
+        <item>from 65€/night 2 person</item>
+        <item>from 80€/night 2 person</item>
+        <item>from 50€/night 2 person</item>
+        <item>from 90€/night 2 person  </item>
+    </string-array>
+
+    <!-- array cat2 => food =>  title_name_2 = titleName | address_2 = address | tel_2 = tel | web_2 = web | desc_2 = desc | item_name_2 = itemName -->
+    <string-array name="title_name_2">
+        <item>Casa Sevilla</item>
+        <item>Restaurante Valentin</item>
+        <item>La Encina</item>
+        <item>Salmantice  </item>
+        <item>Urban Diner  </item>
+        <item>La Gruta  </item>
+    </string-array>
+    <string-array name="address_2">
+        <item>Calle Rueda López Galerías Almericentro, Almería ,Spain</item>
+        <item>Calle Tenor Iribarne, 7 \n04001 Almería ,Spain</item>
+        <item>Calle Marín, 16 \n04003 Almería ,Spain</item>
+        <item>Calle de la Costa Balear, 16 \n04009 Almería , Spain  </item>
+        <item>Av. de Cabo de Gata, 219 \n04007 Almería , Spain </item>
+        <item>N-340a, Km 436, \n04002 Almería, Spain  </item>
+    </string-array>
+    <string-array name="tel_2">
+        <item>0034950272912</item>
+        <item>0034950264475</item>
+        <item>0034950273429</item>
+        <item>0034950625500</item>
+        <item>0034950187009</item>
+        <item>0034950239335</item>
+    </string-array>
+    <string-array name="web_2">
+        <item>http://www.casa-sevilla.com</item>
+        <item>http://www.restaurantevalentin.es</item>
+        <item>http://www.restaurantelaencina.es</item>
+        <item>http://www.rtesalmantice.wordpress.com</item>
+        <item>http://www.urbandineralmeria.com</item>
+        <item>http://www.asadorlagruta.com</item>
+    </string-array>
+    <string-array name="desc_2">
+        <item>The restaurant "Casa Sevilla" is a feast of the Andalusian cuisine featuring beautiful seafood dishes and Argentinian beef.
+            <br/>The Vinoteca next door offers a vast wine list where you have a range of bottles to choose from.</item>
+        <item>Restaurante Valentin has an intimate setting and classy food.
+            <br/>Mediterranean seafood is this restaurant\'s specialty.
+            <br/>The restaurant opened its doors to the public in 1987 and has since gone through several exciting improvements.</item>
+        <item>La Encina is a lovely restaurant with imaginative Mediterranean and Spanish food located near the Alcazaba in a house built 1860.
+            <br/>For an informal dinner you can visit the tavern that serves tapas.</item>
+        <item>Salmantice is a charming restaurant located in the new district in Almería.
+            <br/>The interior is minimalist and the food traditional, with a touch of modernism.
+            <br/>Choose between dishes like grilled octopus and roasted lamb.</item>
+        <item>Urban Diner is a true American Diner in Almería.
+            <br/>Coming inside the restaurant you will find yourself in a plenitude of America in the 1950\'s.
+            <br/>Enjoy freshly made hamburgers, sandwiches or milkshakes, all of it right next to the beach.</item>
+        <item>La Gruta is located only four kilometres from Almería, La Gruta is carved into the cliffs between Almería and Roquetas.
+            <br/>From the restaurant you will see the Mediterranean while enjoying a great meal in a magical atmosphere.</item>
+    </string-array>
+    <string-array name="item_name_2">
+        <item>menu from 29€</item>
+        <item>menu from 49€</item>
+        <item>menu from 25€</item>
+        <item>menu from 33€</item>
+        <item>menu from 8€</item>
+        <item>menu from 27€</item>
+    </string-array>
+
+    <!-- array cat3 => Bar =>  title_name_3 = titleName | address_3 = address | tel_3 = tel | web_3 = web | desc_3 = desc | item_name_3 = itemName -->
+    <string-array name="title_name_3">
+        <item>El Quinto Toro</item>
+        <item>Bombo Club</item>
+        <item>El Vino En Un Barco</item>
+        <item>Blues Potter  </item>
+        <item>Malevaje Alcohol Club </item>
+    </string-array>
+    <string-array name="address_3">
+        <item>Calle Reyes Católicos, 6 \n04001 Almería , Spain</item>
+        <item>Calle Eduardo Pérez 20, \n04001 Almería , Spain </item>
+        <item>Calle Arco, 2 \n04003 Almería , Spain </item>
+        <item>Calle Quinta Avenida 59, \n04008 Almería , Spain </item>
+        <item>Calle Dr. Aráez Pacheco, \n04004 Almería , Spain </item>
+    </string-array>
+    <string-array name="tel_3">
+        <item>0034950239135</item>
+        <item>0034646941969</item>
+        <item>0034687957849</item>
+        <item>NA</item>
+        <item>NA</item>
+    </string-array>
+    <string-array name="web_3">
+        <item>https://www.facebook.com/elquintotoroalmeria</item>
+        <item>https://www.facebook.com/bomboclubalmeria</item>
+        <item>https://www.facebook.com/elvinoenunbarco</item>
+        <item>https://www.facebook.com/megustabluespotter</item>
+        <item>https://salamalevaje.wordpress.com</item>
+    </string-array>
+    <string-array name="desc_3">
+        <item>El Quinto Toro is a typical tapas bar here in Almeria.
+            <br/>The prices are reasonable, the tapas tastes lovely and they offer a long list of many different local wine.</item>
+        <item>Bombo Club is a relatively new party venue in Almeria and quickly became a local favourite that is now known as \'the heart of the songs\'.
+            <br/>With excellent music, a great vibe and lots of fun people, this club is the best place to dance until dawn.</item>
+        <item>This small bar will surprise you with its cosy atmosphere, excellent drinks and handpicked selection of tapas.
+            <br/>Its unique interior design, decor and the incredibly attentive host and bar staff only add to the special ambience that will make you want to return to El Vino En Un Barco immediately.</item>
+        <item>f you want to enjoy some great live rock music in a relaxed environment while you catch up with some friends, Blues Potter will make you feel right at home.
+            <br/>Don\'t forget to try some of their delicious tapas as the perfect accompaniment to some cold beers.</item>
+        <item>The Malevaje Alcohol Club can be found at Calle Dr. Aráez Pacheco in Almería.
+            <br/>It is a pub and also a small concert hall.</item>
+    </string-array>
+    <string-array name="item_name_3">
+        <item>open from 12h00 to 00h00</item>
+        <item>open from 16h00 to 03h00</item>
+        <item>open from 13h00 to 02h00</item>
+        <item>open from 09h00 to 01h00</item>
+        <item>open from 00h00 to 24h00</item>
+    </string-array>
+
+    <!-- array cat4 => beach =>  title_name_4 = titleName | address_4 = address | tel_4 = tel | web_4 = web | desc_4 = desc | item_name_4 = itemName -->
+    <string-array name="title_name_4">
+        <item>The Corralete beach </item>
+        <item>The Fabriquilla beach </item>
+        <item>The Almadraba of Monteleva beach </item>
+        <item>Retamar beach</item>
+        <item>San Telmo beach </item>
+    </string-array>
+    <string-array name="address_4">
+        <item>El Corralete, \n04151, Almería, Spain </item>
+        <item>La Fabriquilla, \n04151, Almería, Spain</item>
+        <item>La Almadraba de Monteleva \n04151, Almería, Spain</item>
+        <item>Paseo Marítimo de Retamar \n04131 Almería, Spain</item>
+        <item>Playa de San Telmo \n04002 Almería, Spain</item>
+    </string-array>
+    <string-array name="tel_4">
+        <item>NA</item>
+        <item>NA</item>
+        <item>NA</item>
+        <item>NA</item>
+        <item>NA</item>
+    </string-array>
+    <string-array name="web_4">
+        <item>https://www.turismodealmeria.org/de/playas/el-corralete/ </item>
+        <item>https://www.turismodealmeria.org/en/playas/fabriquilla/ </item>
+        <item>https://www.turismodealmeria.org/en/playas/almadraba-monteleva/</item>
+        <item>https://www.turismodealmeria.org/en/playas/retamar/ </item>
+        <item>https://www.turismodealmeria.org/en/playas/san-telmo-almeria/</item>
+    </string-array>
+    <string-array name="desc_4">
+        <item>The Corralete or Ancon beach is the last beach in Almería to the east and is located in the Natural Park of Cabo de Gata-Nijar.
+            <br/>600 metres long crystal clear waters and sunsets are certainly impressive.
+            <br/>To access the beach you have to climb the lighthouse road, offering stunning views of the bay of Almeria and especially in the area of Salinas and the Lighthouse of Cabo de Gata.
+            <br/>The beach has sand and pebbles and does not have showers or specific services handicapped accessible.</item>
+        <item>The Fabriquilla is the last beach esplanade of the previous Salinas to rise to Faro Cabo de Gata and dies resting on volcanic cliffs.
+            <br/>With a length of 600 metres, white sand and clear water. Along this beach access and easy parking, there are some places to sample the local cuisine, but its occupation during the summer months is very high.
+            <br/>It is also caters for canoes and is an exit area for visits to the volcanic area of Cabo de Gata and the ‘reef of the sirens’.</item>
+        <item>The beach is the Almadraba of Monteleva east extension of Las Salinas and belongs to the small town of the same name.
+            <br/>The beach begins with the stunning view of the Church of Salinas, boats and traditional arts of fishermen and facilities of the salt and salt mountains.
+            <br/>This small beach is composed of sand and pebbles, their occupation is usually high and also has a small hotel and various restaurants where you can have fresh fish.
+            <br/>It also offers services such as showers and has access for people with disabilities.</item>
+        <item>Retamar Beach is an urban beach that is adjacent to the residential area of the same name and next to the promenade.
+            <br/>It covers an area of about 1,200 metres and its composition is of sand and pebbles.
+            <br/>Within the beach itself there are bars to taste the typical food of local fish and other hospitality venues and businesses within the town.
+            <br/>The occupancy of this beach is normally high, especially in the summer months.</item>
+        <item>Playa del Faro de San Telmo, is a beautiful sandy cove located between cliffs.
+            <br/>It is located at the westwards exit of the city of Almeria.
+            <br/>It is less than 100 metres long and has low occupancy throughout the year, having a complicated access.
+            <br/>One must park in the nearby service area (Bayana) and walk to the Aguadulce road.
+            <br/>From there you can see below a steep embankment; care the decent can be dangerous.</item>
+    </string-array>
+    <string-array name="item_name_4">
+        <item>naturist beach</item>
+        <item>naturist beach</item>
+        <item>for people with disabilities</item>
+        <item>for animals</item>
+        <item>The beach lacks services</item>
+    </string-array>
+
+    <!-- array cat5 => places => title_name_5 = titleName | address_5 = address | tel_5 = tel | web_5 = web | desc_5 = desc | item_name_5 = itemName -->
+    <string-array name="title_name_5">
+        <item>The Alcazaba Monument</item>
+        <item>Cathedral of Almeria </item>
+        <item>Arabic Aljibes </item>
+        <item>Mini Hollywood </item>
+        <item>Civil War Refuge Museum</item>
+        <item>Cabo de Gata-Nijar Natural Park </item>
+    </string-array>
+    <string-array name="address_5">
+        <item>Calle Almanzor, s/n, \n04002 Almería, Spain</item>
+        <item>Plaza de la Catedral s/n,\n04001 Almería, Spain</item>
+        <item>Calle Tenor Iribarne, Almería, Spain </item>
+        <item>Carretera nacional 340 a Tabernas, Almería, Spain </item>
+        <item>Plaza Manuel Perez Garcia, \n04003 Almería, Spain </item>
+        <item>Cabo de Gata, Nijar, Almería </item>
+    </string-array>
+    <string-array name="tel_5">
+        <item>0034950271161</item>
+        <item>0034950234848</item>
+        <item>0034950273039</item>
+        <item>0034950365236</item>
+        <item>0034950268696</item>
+        <item>0034689167816</item>
+    </string-array>
+    <string-array name="web_5">
+        <item>http://www.museosdeandalucia.es</item>
+        <item>https://www.turismodealmeria.org/en/motivo-tematico/the-cathedral/ </item>
+        <item>https://www.turismodealmeria.org/en/motivo-tematico/the-aljibe-neighbourhood-al-hawd/</item>
+        <item>http://www.oasysparquetematico.com</item>
+        <item>https://www.almeriaculturaentradas.es/espacios/refugios-guerra-civil/</item>
+        <item>http://www.degata.com</item>
+    </string-array>
+    <string-array name="desc_5">
+        <item>The Alcazaba Monument is a 10th-century fortress with three huge enclosures, gardens, and the Walls of Hayrán marching down the valley to the San Cristobál hill opposite.
+            <br/>Warrens of cave houses are cut into the rock below. From here you will have great views of the city and port, and the most legendary sunsets.</item>
+        <item>The Square designed in the mid-nineteenth century, it has undergone several renovations, most recently in 2000.
+            <br/>It highlights the monumental facade of the cathedral fortress which presides from the sixteenth century, with its Renaissance main entrance.
+            <br/>The commencment of the building of the Cathedral was in 1524, after the earthquake in 1522 destroyed the first, which was located in the Medina, on the site of the old mosque.
+            <br/>Its main feature was to be cathedral-fortress, because it was built for both religious worship and to shelter the population from attacks by Barbary pirates.</item>
+        <item>The Arabic Aljibes are perfectly preserved 11th-century Moorish water cisterns.
+            <br/>These wells used to part of the water network that supplied both the inhabitants of Almería and the troops.</item>
+        <item>From "Lawrence of Arabia" to "A Fistful of Dollars" and David Beckham’s Pepsi ad, countless films have been shot in the desert hinterland outside Almería.
+            <br/>The old movie lots are nowadays theme parks.</item>
+        <item>The Spanish Civil War affected the population tremendously. Because of the bombings, the citizens of Almería decided to undertake a construction of underground bunkers, shelters.
+            <br/>Today you can visit these bunkers and go all the way back to the Civil War.</item>
+        <item>The 34,000-hectare Cabo de Gata-Nijar Natural Park has beautiful unspoiled beaches, bird-filled lagoons and mountains plunging to the sea. Buses run to villages and the lively Mojácar.
+            <br/>You can also rent a cycle or car to explore the area.</item>
+    </string-array>
+    <string-array name="item_name_5">
+        <item>10th-century fortress</item>
+        <item>Designed in the mid-nineteenth century</item>
+        <item>11th-century Moorish water cisterns</item>
+        <item>From "Lawrence of Arabia".. </item>
+        <item>way back to the Civil War </item>
+        <item>beautiful unspoiled beaches</item>
+    </string-array>
+
+</resources>

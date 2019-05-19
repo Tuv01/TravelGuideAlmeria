@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common dimension -->
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <!-- textView size -->
+    <dimen name="text_view_size_48sp">48sp</dimen>
+    <dimen name="text_view_size_24sp">24sp</dimen>
+    <dimen name="text_view_size_16sp">16sp</dimen>
+    <!-- item dimension -->
+    <dimen name="thumbnail_height">98dp</dimen>
+    <dimen name="image_height_header">192dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_blue"
+    android:orientation="vertical">
+    <!-- This is the item displayed on the list view info-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_4dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/info_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height_header"
+            android:layout_margin="@dimen/margin_16dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/info_1"/>
+
+        <TextView
+            android:id="@+id/info_text"
+            style="@style/text_view_info"
+            android:textSize="@dimen/text_view_size_48sp"
+            android:layout_margin="@dimen/margin_8dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-black"
+            tools:text="@tools:sample/lorem" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/info_text_2"
+        style="@style/text_view_info"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        tools:text="@tools:sample/lorem/random"
+        android:layout_marginBottom="@dimen/margin_16dp"/>
+
+</LinearLayout>

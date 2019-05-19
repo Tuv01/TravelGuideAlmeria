@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/image_height_header">
+
+    <!-- This is the item displayed on the main activity gridView-->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height_header"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/cat_1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/text_view_size_24sp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        tools:text="Almería"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/ic_next"
+        android:alpha="0.5"
+        android:layout_margin="@dimen/margin_16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

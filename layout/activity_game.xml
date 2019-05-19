@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/qrscan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_scanqr"
+        android:layout_weight="0"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text=" SCAN QR CODE "
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:textSize="@dimen/text_view_size_16sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/textviewqr1"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:text="@string/qr_txt_code"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/result_text"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:text="@string/qr_txt_information"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:id="@+id/location_text"
+        android:layout_marginTop="@dimen/margin_32dp"
+        android:textSize="@dimen/text_view_size_16sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        />
+</LinearLayout>
