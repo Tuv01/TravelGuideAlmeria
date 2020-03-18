@@ -1,5 +1,5 @@
 # Almeria Travel Guide 
- ##  Specialization Mobile Solution: Mobile Systems and Applications (SS19)
+ ##  Specialization Mobile Solution: Mobile Applications and Techniques (SS19)
 
 *(FHWS) University of applied sciences Würzburg-Schweinfurt *
 * Android (Java)
