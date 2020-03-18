@@ -1,5 +1,5 @@
 # Almeria Travel Guide 
- ##  Vertiefung MS: Mobile Systeme und Anwendungen (SS19)
+ ##  Specialization Mobile Solution: Mobile Systems and Applications (SS19)
 
 *(FHWS) Hochschule Würzburg-Schweinfurt*
 * Android (Java)
