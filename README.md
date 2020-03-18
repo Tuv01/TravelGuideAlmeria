@@ -1,7 +1,7 @@
 # Almeria Travel Guide 
  ##  Specialization Mobile Solution: Mobile Systems and Applications (SS19)
 
-*(FHWS) Hochschule Würzburg-Schweinfurt*
+*(FHWS) University of applied sciences Würzburg-Schweinfurt *
 * Android (Java)
 * Firebase (Realtime Database, Authentication and Notification)
 * QR-Reader
